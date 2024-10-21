@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar style="text-align: center;">
+    <ion-title>Tuviste un inconveniente?</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <header class="centrado">
+    <h1>Justifica tu ausencia!</h1>
+  </header>
+  <main>
+
+    <ion-list>
+      <ion-radio-group name="justificacion" [(ngModel)]="justify" value="">
+        <ion-list-header>
+          <ion-label>Justificaciones:</ion-label>
+        </ion-list-header>
+        <ion-item>
+          <ion-label>Laboral</ion-label>
+          <ion-radio slot="start" value="laboral"></ion-radio>
+        </ion-item>
+        <ion-item>
+          <ion-label>Médica</ion-label>
+          <ion-radio slot="start" value="medico"></ion-radio>
+        </ion-item>
+      </ion-radio-group>
+    </ion-list>
+
+    
+
+    <ion-button expand="block" (click)="justificarAusencia()">Justificar ausencia</ion-button>
+
+  </main>
+
+</ion-content>

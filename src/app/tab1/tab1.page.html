@@ -1,0 +1,33 @@
+<ion-header [translucent]="true">
+  <ion-toolbar style="text-align: center;">
+    <ion-title>
+      Registrar asistencia
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="centrado">
+    <h1>Crea un código QR!</h1>
+  </div>
+  <main class="centrado" style="margin-bottom: 75px;">
+    
+    <ion-text color="primary">
+      <h1>Generar QR</h1>
+    </ion-text>
+    <input type="text" [(ngModel)]="texto">
+
+    <!-- <ion-buttons slot="">
+      <ion-button (click)="crearQR()">
+        <ion-icon slot="start" name="qr-code"></ion-icon>
+        Crear QR
+      </ion-button>
+      <ion-button (click)="borrarQR()">
+        <ion-icon slot="start" name="trash"></ion-icon>
+        Borrar QR
+      </ion-button>
+    </ion-buttons> -->
+  </main>
+
+    <div id="qr-container" class="centrado" ></div>
+</ion-content>
