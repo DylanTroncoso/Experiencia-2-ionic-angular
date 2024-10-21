@@ -1,0 +1,39 @@
+{
+    "Clases": [
+        {
+            "id": 1,
+            "nombre": "Programación",
+            "docente": "Raúl",
+            "alumnos": 12
+        }
+    ],
+
+    "Alumno": [
+        {
+            "id": 1,
+            "nombre": "Dylan",
+            "rut": "21793946-1",
+            "email": "dy.troncoso@duocuc.cl",
+            "contraseña": "1234asd"
+        }
+    ],
+    
+    "Docente": [
+        {
+            "id": 1,
+            "nombre": "Raúl",
+            "rut": "11416344-9",
+            "email": "R.ul@profesor.duoc.cl",
+            "contraseña": "1234asd"
+        }
+    ],
+    "justificaciones": [
+        {
+            "id": 1,
+            "usuario": 1,
+            "fecha": "2021-06-01",
+            "hora": "08:00",
+            "justificacion": "Me duele la cabeza"
+        }
+    ]
+}
